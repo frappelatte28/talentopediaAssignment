@@ -1,0 +1,14 @@
+.signUpBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: aquamarine !important;
+  color: darkslategrey;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.signUpBtn:hover {
+  background-color: rgb(112, 167, 167) !important;
+  color: aquamarine;
+  transition: all 0.3s ease-out;
+}

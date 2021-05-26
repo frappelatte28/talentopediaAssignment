@@ -1,0 +1,53 @@
+.contactSectionImage {
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(90deg, rgb(27, 27, 27) 0%, rgb(10, 16, 100) 100%);
+}
+#message {
+  width: 50%;
+}
+.footer {
+  background: linear-gradient(90deg, rgb(27, 27, 27) 0%, rgb(10, 16, 100) 100%);
+  color: white;
+}
+.social_icons {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+}
+.social_icons div {
+  padding: 10px;
+}
+.aboutSection {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+.end {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}
+.submitBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: aquamarine !important;
+  color: darkslategrey;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  width: 90px;
+}
+.submitBtn:hover {
+  background-color: rgb(112, 167, 167) !important;
+  color: aquamarine;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 780px) {
+  #message {
+    width: 100%;
+  }
+}
